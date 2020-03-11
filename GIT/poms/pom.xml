@@ -14,6 +14,7 @@
     <module>jobs/joblets/jcloudlog_0.1</module>
     <module>jobs/process/Examples/sayhello_0.1</module>
     <module>jobs/process/Examples/getweather_0.1</module>
+    <module>jobs/process/performance_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
