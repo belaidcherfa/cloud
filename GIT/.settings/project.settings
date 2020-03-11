@@ -400,13 +400,13 @@
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "LOAD_NEW_VARIABLE",
-        "value" : "",
+        "value" : "Warning",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CLOSED_LIST",
         "name" : "NOT_LOAD_OLD_VARIABLE",
-        "value" : "",
+        "value" : "Warning",
         "contextMode" : false
       }, {
         "show" : true,
