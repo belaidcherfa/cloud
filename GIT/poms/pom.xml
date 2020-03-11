@@ -15,6 +15,22 @@
     <module>jobs/process/Examples/sayhello_0.1</module>
     <module>jobs/process/Examples/getweather_0.1</module>
     <module>jobs/process/performance_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_orderitems_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_contracts_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_contacts_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_casesolutions_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_orders_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_opportunity_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_pricebookentry_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_leads_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_campaigns_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_cases_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_product2_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_accounts_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_campaignmembers_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_opportunitylineitems_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_pricebook2_0.1</module>
+    <module>jobs/process/Salesforce_to_AzureSQLDWH_Lift_Shift/load_solution_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>

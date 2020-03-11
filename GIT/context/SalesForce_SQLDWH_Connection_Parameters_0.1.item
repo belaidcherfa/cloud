@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_-P1LcGOjEeq_3op8i2xb-A" xmi:version="2.0">
+  <contextParameter comment="Salesforce user id" name="sf_userid" prompt="sf_userid?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LcWOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Salesforce Password" name="sf_password" prompt="sf_password?" promptNeeded="false" type="id_Password" value="" xmi:id="_-P1LcmOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="SalesForce Security Token" name="sf_security_token" prompt="sf_security_token?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1Lc2OjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Salesforce URL" name="sf_url" prompt="sf_url?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LdGOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="SQL DWH Password" name="SQLDWH_Password" prompt="SQLDWH_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_-P1LdWOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="SQL DWH Host name" name="SQLDWH_Host" prompt="SQLDWH_Host?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LdmOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Port number for SQL DWH" name="SQLDWH_Port" prompt="SQLDWH_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1Ld2OjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Schema name for SQL DWH" name="SQLDWH_Schema" prompt="SQLDWH_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LeGOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Database name for SQL DWH" name="SQLDWH_Database" prompt="SQLDWH_Database?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LeWOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="SQL DWH Username" name="SQLDWH_Username" prompt="SQLDWH_Username?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LemOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="SQL DWH JDBC Additional Parameters" name="SQLDWH_JDBC_PARAM" prompt="SQLDWH_JDBC_PARAM?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1Le2OjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Azure Blob Account Name" name="Blob_Account_Name" prompt="Blob_Account_Name?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LfGOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Azure Blob Account Key" name="Blob_Account_Key" prompt="Blob_Account_Key?" promptNeeded="false" type="id_Password" value="" xmi:id="_-P1LfWOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Azure Blob Container Name" name="Blob_Container_Name" prompt="Blob_Container_Name?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LfmOjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Azure Blob Local Folder" name="Blob_Local_Folder" prompt="Blob_Local_Folder?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1Lf2OjEeq_3op8i2xb-A"/>
+  <contextParameter comment="Azure Blob Folder" name="Blob_Azure_Folder" prompt="Blob_Azure_Folder?" promptNeeded="false" type="id_String" value="" xmi:id="_-P1LgGOjEeq_3op8i2xb-A"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2be1b118-043b-4536-a05c-773c935020bb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PiSI3U9zQ/afaAoY7czFBm2cYk0ZuSjG41dV0+hOkCAVcEBhL1zmrqHHtmmYr693Wsc5qvX+6HnS&#13;
+9DD1K2SEoQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a8a25401-ad90-499c-a4d0-f52078f9797b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jh2Caeeb8n738m7VqUESshvOoUgoHqbKt5gUEF78VkFGiT1yTJzpe1Wnorvq0XLec7PVXOYI+ztk&#13;
+9uLKwFMvRw==</DigestValue></Reference></SignedInfo><SignatureValue>I6QGCdmFwHYje8Rm8kTM/j2uJaIxG53HOgqAKJ1aQXwApc3deDIL8FAKDhz3t9t74HHPwQcvtdrt&#13;
+Q//GUWiC7VhZg5nEVPp4nF3c/bS02N4F0Qo0Cd6vZm68nEdxQnMGrD5CQGXEzJlb0PTPx3WxTdCf&#13;
+WM3dnRdjgMGCdpfWjavHT0KA5xYL8SocCrB6XnMn2r06IRgcxowL0tB38LZvS+5whqIIGiPO01GP&#13;
+8cLckEZzrzcJfraU0m2Ay4Jpkdt/li+mOULUiZKGrGMWTSe0dyoalw14FPGWGehfDP7D83e4pt9R&#13;
+Y+wxj16e8n1q/pB8T2GxQIvuwbXyDGR5E9LYEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a8a25401-ad90-499c-a4d0-f52078f9797b" Target="#_2be1b118-043b-4536-a05c-773c935020bb"><Timestamp>2020-03-11 14:24:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
