@@ -1161,205 +1161,205 @@
     <elementParameter field="TEXT" name="LABEL" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;SFDC_ACCOUNT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSQLDWHBulkExec_2">
-      <column comment="" key="false" length="18" name="ID" nullable="false" originalDbColumnName="Id" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="ID" nullable="false" originalDbColumnName="Id" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Id"/>
       </column>
-      <column comment="" key="false" length="-1" name="IsDeleted" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_Boolean" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="IsDeleted" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="BIT" type="id_Boolean" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="IsDeleted"/>
       </column>
-      <column comment="" key="false" length="18" name="MasterRecordId" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="MasterRecordId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="MasterRecordId"/>
       </column>
-      <column comment="" key="false" length="255" name="Name" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="Name" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
       </column>
-      <column comment="" key="false" length="40" name="Type" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Type"/>
       </column>
-      <column comment="" key="false" length="18" name="ParentId" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="ParentId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ParentId"/>
       </column>
-      <column comment="" key="false" length="255" name="BillingStreet" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="BillingStreet" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingStreet"/>
       </column>
-      <column comment="" key="false" length="40" name="BillingCity" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="BillingCity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingCity"/>
       </column>
-      <column comment="" key="false" length="80" name="BillingState" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="BillingState" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingState"/>
       </column>
-      <column comment="" key="false" length="20" name="BillingPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="BillingPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingPostalCode"/>
       </column>
-      <column comment="" key="false" length="80" name="BillingCountry" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="BillingCountry" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingCountry"/>
       </column>
-      <column comment="" key="false" length="18" name="BillingLatitude" nullable="true" originalLength="-1" pattern="" precision="15" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="18" name="BillingLatitude" nullable="true" originalLength="-1" pattern="" precision="15" sourceType="FLOAT" type="id_Double" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingLatitude"/>
       </column>
-      <column comment="" key="false" length="18" name="BillingLongitude" nullable="true" originalLength="-1" pattern="" precision="15" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="18" name="BillingLongitude" nullable="true" originalLength="-1" pattern="" precision="15" sourceType="FLOAT" type="id_Double" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingLongitude"/>
       </column>
-      <column comment="" key="false" length="40" name="BillingGeocodeAccuracy" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="BillingGeocodeAccuracy" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingGeocodeAccuracy"/>
       </column>
-      <column comment="" key="false" length="255" name="BillingAddress" nullable="true" originalLength="255" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="BillingAddress" nullable="true" originalLength="255" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BillingAddress"/>
       </column>
-      <column comment="" key="false" length="255" name="ShippingStreet" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="ShippingStreet" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingStreet"/>
       </column>
-      <column comment="" key="false" length="40" name="ShippingCity" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="ShippingCity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingCity"/>
       </column>
-      <column comment="" key="false" length="80" name="ShippingState" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="ShippingState" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingState"/>
       </column>
-      <column comment="" key="false" length="20" name="ShippingPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="ShippingPostalCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingPostalCode"/>
       </column>
-      <column comment="" key="false" length="80" name="ShippingCountry" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="ShippingCountry" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingCountry"/>
       </column>
-      <column comment="" key="false" length="18" name="ShippingLatitude" nullable="true" originalLength="-1" pattern="" precision="15" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="18" name="ShippingLatitude" nullable="true" originalLength="-1" pattern="" precision="15" sourceType="FLOAT" type="id_Double" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingLatitude"/>
       </column>
-      <column comment="" key="false" length="18" name="ShippingLongitude" nullable="true" originalLength="-1" pattern="" precision="15" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="18" name="ShippingLongitude" nullable="true" originalLength="-1" pattern="" precision="15" sourceType="FLOAT" type="id_Double" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingLongitude"/>
       </column>
-      <column comment="" key="false" length="40" name="ShippingGeocodeAccuracy" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="ShippingGeocodeAccuracy" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingGeocodeAccuracy"/>
       </column>
-      <column comment="" key="false" length="255" name="ShippingAddress" nullable="true" originalLength="255" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="ShippingAddress" nullable="true" originalLength="255" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ShippingAddress"/>
       </column>
-      <column comment="" key="false" length="40" name="Phone" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Phone" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
       </column>
-      <column comment="" key="false" length="40" name="Fax" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Fax" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Fax"/>
       </column>
-      <column comment="" key="false" length="40" name="AccountNumber" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="AccountNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="AccountNumber"/>
       </column>
-      <column comment="" key="false" length="255" name="Website" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="Website" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Website"/>
       </column>
-      <column comment="" key="false" length="255" name="PhotoUrl" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="PhotoUrl" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="PhotoUrl"/>
       </column>
-      <column comment="" key="false" length="20" name="Sic" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="Sic" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Sic"/>
       </column>
-      <column comment="" key="false" length="40" name="Industry" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Industry" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Industry"/>
       </column>
-      <column comment="" key="false" length="18" name="AnnualRevenue" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="18" name="AnnualRevenue" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="AnnualRevenue"/>
       </column>
-      <column comment="" key="false" length="-1" name="NumberOfEmployees" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_Integer" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="NumberOfEmployees" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="NumberOfEmployees"/>
       </column>
-      <column comment="" key="false" length="40" name="Ownership" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Ownership" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Ownership"/>
       </column>
-      <column comment="" key="false" length="20" name="TickerSymbol" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="TickerSymbol" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="TickerSymbol"/>
       </column>
-      <column comment="" key="false" length="3200" name="Description" nullable="true" originalLength="3200" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="3200" name="Description" nullable="true" originalLength="3200" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Description"/>
       </column>
-      <column comment="" key="false" length="40" name="Rating" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="Rating" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Rating"/>
       </column>
-      <column comment="" key="false" length="80" name="Site" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="Site" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Site"/>
       </column>
-      <column comment="" key="false" length="18" name="OwnerId" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="OwnerId" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="OwnerId"/>
       </column>
-      <column comment="" key="false" length="-1" name="CreatedDate" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="CreatedDate" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedDate"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="18" name="CreatedById" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="CreatedById" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedById"/>
       </column>
-      <column comment="" key="false" length="-1" name="LastModifiedDate" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="LastModifiedDate" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedDate"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="18" name="LastModifiedById" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="LastModifiedById" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedById"/>
       </column>
-      <column comment="" key="false" length="-1" name="SystemModstamp" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="SystemModstamp" nullable="false" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="SystemModstamp"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="-1" name="LastActivityDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="LastActivityDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="LastActivityDate"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="-1" name="LastViewedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="LastViewedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="LastViewedDate"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="-1" name="LastReferencedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="LastReferencedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="LastReferencedDate"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
-      <column comment="" key="false" length="20" name="Jigsaw" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="Jigsaw" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Jigsaw"/>
       </column>
-      <column comment="" key="false" length="20" name="JigsawCompanyId" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="JigsawCompanyId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="JigsawCompanyId"/>
       </column>
-      <column comment="" key="false" length="40" name="CleanStatus" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="CleanStatus" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="CleanStatus"/>
       </column>
-      <column comment="" key="false" length="40" name="AccountSource" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="40" name="AccountSource" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="AccountSource"/>
       </column>
-      <column comment="" key="false" length="9" name="DunsNumber" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="9" name="DunsNumber" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="DunsNumber"/>
       </column>
-      <column comment="" key="false" length="255" name="Tradestyle" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="Tradestyle" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Tradestyle"/>
       </column>
-      <column comment="" key="false" length="8" name="NaicsCode" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="8" name="NaicsCode" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="NaicsCode"/>
       </column>
-      <column comment="" key="false" length="120" name="NaicsDesc" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="120" name="NaicsDesc" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="NaicsDesc"/>
       </column>
-      <column comment="" key="false" length="4" name="YearStarted" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="4" name="YearStarted" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="YearStarted"/>
       </column>
-      <column comment="" key="false" length="80" name="SicDesc" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="80" name="SicDesc" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="SicDesc"/>
       </column>
-      <column comment="" key="false" length="18" name="DandbCompanyId" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="18" name="DandbCompanyId" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="DandbCompanyId"/>
       </column>
-      <column comment="" key="false" length="255" name="CustomerPriority__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="CustomerPriority__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="CustomerPriority__c"/>
       </column>
-      <column comment="" key="false" length="255" name="SLA__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="SLA__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="SLA__c"/>
       </column>
-      <column comment="" key="false" length="255" name="Active__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="Active__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Active__c"/>
       </column>
-      <column comment="" key="false" length="3" name="NumberofLocations__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_Double" usefulColumn="true">
+      <column comment="" key="false" length="3" name="NumberofLocations__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="FLOAT" type="id_Double" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="NumberofLocations__c"/>
       </column>
-      <column comment="" key="false" length="255" name="UpsellOpportunity__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="255" name="UpsellOpportunity__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="UpsellOpportunity__c"/>
       </column>
-      <column comment="" key="false" length="10" name="SLASerialNumber__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="10" name="SLASerialNumber__c" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="SLASerialNumber__c"/>
       </column>
-      <column comment="" key="false" length="-1" name="SLAExpirationDate__c" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" type="id_Date" usefulColumn="true">
+      <column comment="" key="false" length="-1" name="SLAExpirationDate__c" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="SLAExpirationDate__c"/>
         <additionalField key="di.date.noLogicalType" value="true"/>
       </column>
@@ -1677,13 +1677,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d11082b1-9df2-426d-8905-8881704a4ff4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ulYO6XWZ3Qq5EnjpWrYSeeFxtbDm/lkCOuKS+YHlgqb0vdZRiHVXOvZcVbkx8OHr9eAfYFKKiMV4&#13;
-xMrZUzTGbA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d8eb1574-9915-4ad7-b02e-e14d3b80ad1d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L4Tt2EV6Tzg0QPvcs8Cdy+OscNBb2Op9G//dM8bexvr1ktRIqwV3zPjo4hc4e4dd7Mls9r/mIzv2&#13;
-tR8tu3teTg==</DigestValue></Reference></SignedInfo><SignatureValue>Z+TAlICb9kYRueRQc+oNDospv7OBC+c321vrZy28E3QQpKyDgYkjkfjR75eBpyV9Pq1SqHU0/Vfq&#13;
-0cBVm7lUgEYy+VyoGwj2QNOi5gvrjCzo2iiaSiWRuG7JOuX5kevVj06su+GRqPeMjZ0HL3WnijeX&#13;
-FjlyVl7WTdyTxvCm1G8TdjN5yDEac3ypjShtwHhEz38vybGJghXfP4yNlRPPQhG1LRAWqrr0nY3M&#13;
-d8LpuSpBO5Ll4XpOwkYqGsudB7yWVJmlzEnHshAZb6Nz32BTqKnrYTCOtTHyyY5d5fhGHbR8zZdL&#13;
-5T6cOH9LIkueiaAIh9GDjr3rI2mXVFhVicIBpQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5ecbeb5f-c1ff-483f-839c-b8c7f520658f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jzGsW98v9v/Q8/6Ll2joVrUMp75k9G0K/5Mf6HCZA8ncFuLr9Uy/XPIOg0dVJUS9kYn0IOI7xeJf&#13;
+nIhM3lx8GA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_521704bb-6c6d-4b2f-984d-7d1a125a3145"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sqI+aAj7XPnl5EExAw8i9CMFsTuJof/TcRib8Rm4RijnLKSJiSQf8GYuJr8dbS4vLBENqAuIzqKI&#13;
+63FRorQMNQ==</DigestValue></Reference></SignedInfo><SignatureValue>pvuTZ6UO+s5DXKqUIM90pA4HxzurFTJQtx7UQtX5aAckILjcTq277GvskQcgkonXc9kB2rq40NL8&#13;
+gWKqwea6tmf95duRAUKv9fGcxPxeft3cNypHjSaPtdhC5QSJbn4GzSmjb/UfPcz/1JilZTcv7lBr&#13;
+2UrGCWRQFHPTZ2UGrHlz5DWvp4Fkp58YhAjLKBoEPrFmajxAumGRsXM/8NMkMCI6uOx0BYXo/B89&#13;
+7Gndi2j4v/T787Z0fBYT7M6Vwhvx/R3bsOq4zivPSWBf2vI2/dPL3cy2uqiCOWlOBd/tgp7DVaX3&#13;
+njRof5OSlCK3TtFWXkocXSoYL2y5gQSaTRFvIA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1705,4 +1705,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d8eb1574-9915-4ad7-b02e-e14d3b80ad1d" Target="#_d11082b1-9df2-426d-8905-8881704a4ff4"><Timestamp>2020-03-11 14:29:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_521704bb-6c6d-4b2f-984d-7d1a125a3145" Target="#_5ecbeb5f-c1ff-483f-839c-b8c7f520658f"><Timestamp>2020-03-11 16:24:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
